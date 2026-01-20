@@ -1,0 +1,44 @@
+List Data Type
+Video Link: https://youtu.be/Pnh41V3bCUw?si=aBzi6eZz9_Cb7jKH
+
+Notes
+
+1. List Features & Basics
+Definition: A list treats different or same data types as a single entity.
+
+Duplicates: Lists allow duplicate elements.
+
+Creation: You can create an empty list using square brackets [].
+
+Type Checking: Use the type() function to verify that a variable is a list.
+
+Heterogeneous Data: A single list can store strings, integers, floats, and booleans simultaneously.
+
+2. Built-in List Functions
+len(): Returns the number of elements in the list.
+
+count(value): Counts how many times a specific value appears in the list.
+
+index(value): Finds the index position of the first occurrence of a value.
+
+append(value): Adds an element to the end of the list.
+
+insert(index, value): Adds an element at a specific index, shifting existing elements to the right.
+
+extend(list): Merges another list into the current list.
+
+remove(value): Removes the first occurrence of a specific value from the list.
+
+pop(index): Similar to remove, but takes an index instead of a value to remove an element.
+
+reverse(): Reverses the order of elements in the original list.
+
+sort(): Arranges elements in ascending order.
+
+Note: This function will cause an error if the list contains incompatible data types (e.g., mixing strings and integers). It works perfectly on lists containing only numbers.
+
+
+
+Examples
+
+l = ["name", 10, 67.5, True]
