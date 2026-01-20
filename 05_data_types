@@ -1,6 +1,8 @@
 Data Types
 Video Link: https://youtu.be/M_u1Obqe5Ns?si=DrErE7wP_Ji49z3H
 
+**Notes**
+
 1. Identifiers
 Definition: These are names given to entities like classes, functions, or variables.
 
@@ -26,3 +28,28 @@ Single-line Comments: Created using the # symbol.
 Multi-line Comments: Created by enclosing text within triple double quotes (""").
 
 Shortcut: In many editors, you can use Ctrl + / to toggle comments.
+
+**Examples**
+
+Identifiers:-
+cash = 10  --> valid
+ca$h = 10  --> invalid
+
+Keywords:-
+Examples: if, else, def, class, for, and while.
+
+Data Types:-
+name = "Rigved" --> string(str)
+age = 18 --> integer(int)
+marks = 99.99 --> float(float)
+isStudent = True --> boolean(bool)
+
+Comments:-
+# this is a single line comment
+"""this
+    is
+    a
+    multi-line
+    comment
+"""
+shortcut --> ctrl + /
