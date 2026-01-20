@@ -1,0 +1,28 @@
+Data Types
+Video Link: https://youtu.be/M_u1Obqe5Ns?si=DrErE7wP_Ji49z3H
+
+1. Identifiers
+Definition: These are names given to entities like classes, functions, or variables.
+
+Naming Rules: Can consist of lowercase (a-z), uppercase (A-Z), digits (0-9), and underscores (_).
+
+2. Keywords (Reserved Words)
+Keywords are words that have a predefined meaning and functionality within Python.
+
+3. Basic Data Types
+String (str): A sequence of characters enclosed in double quotes.
+
+Integer (int): Used for whole numbers.
+
+Float: Used for decimal or floating-point numbers.
+
+Boolean (bool): Represents one of two values: True or False.
+
+4. Comments in Python
+Purpose: Comments help developers understand the logic of the code during reviews.
+
+Single-line Comments: Created using the # symbol.
+
+Multi-line Comments: Created by enclosing text within triple double quotes (""").
+
+Shortcut: In many editors, you can use Ctrl + / to toggle comments.
