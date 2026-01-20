@@ -1,0 +1,47 @@
+Data Type Casting
+Video Link: https://youtu.be/qF1G5gvxmKQ?si=hGbwd3P7is3t_Tvs
+
+Notes
+
+This video is the 9th installment of the Python learning series, focusing on Type Casting (also known as Type Conversion).
+
+Summary
+The tutorial explains that Type Casting is the process of converting one data type into another. It demonstrates several successful conversions, such as converting a string to an integer, a float to an integer, and a value to a boolean. It also covers the limitations of type casting, specifically when trying to convert incompatible data types like a text-based string into an integer.
+
+Detailed Notes
+1. Introduction to Type Casting
+Definition: Type casting allows you to change a variable from one data type to another.
+
+2. Practical Examples
+String to Integer:
+
+A string containing a numeric value (e.g., "10") can be converted using the int() function.
+
+After conversion, the type changes from <class 'str'> to <class 'int'>.
+
+Float to Integer:
+
+A floating-point number (e.g., 123.456) can be converted to an integer using int().
+
+Result: The decimal part is removed, leaving only the whole number (e.g., 123).
+
+Boolean Conversion:
+
+Using the bool() function on a non-zero variable returns True.
+
+The converted variable will have the data type <class 'bool'>.
+
+3. Limitations and Errors
+Incompatible Types: You cannot convert a string consisting of letters (e.g., "Python") into an integer.
+
+Error Message: Attempting this results in a ValueError because a word cannot be represented as a number.
+Core Rule: Type casting only works when there is a logical relationship between the data types.
+
+
+
+Examples
+
+ten = "10"
+print(type(ten)) --> str data type
+number = int(ten)
+print(type(integer)) --> int data type
