@@ -1,0 +1,10 @@
+#1 Installing Python
+Video Link: https://youtu.be/GPO3gOLp2H0?si=_-76Jej_LcJrqWQc
+
+Official Source: Visit Python.org to download the software.
+
+Version Recommendation: It is recommended to install a stable version (like the 64-bit Windows installer) rather than the absolute latest, which may be unstable.
+
+Installation Tip: Ensure all checkboxes (specifically "Add Python to PATH") are ticked before clicking Install Now.
+
+Verification: To check if the installation was successful, open the Command Prompt and type python --version.
