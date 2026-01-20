@@ -1,0 +1,39 @@
+Set Data Type
+Video Link: https://youtu.be/p6m1jmzZtDk?si=Ir2E8Q9Jq0QSMAJZ
+
+Notes
+
+1. Core Characteristics of Sets
+Uniqueness: Sets do not allow duplicate values; they only store unique elements.
+
+Single Entity: Used to treat multiple unique values as a single entity.
+
+Heterogeneous Data: Like lists, sets can store different data types (e.g., integers, strings).
+
+No Indexing/Slicing: Unlike lists or tuples, sets are unordered, so indexing and slicing do not work.
+
+Syntax: Sets are defined using curly braces {}.
+
+2. Creation and Type Casting
+Verification: Use type() to confirm a variable is a set.
+
+List to Set Conversion: You can convert a list to a set using the set() function, which is useful for removing duplicates from a list.
+
+Empty Set Caution: Creating an empty set with {} results in a dictionary type. To create a truly empty set, you must use the set() constructor.
+
+3. Built-in Set Functions
+add(value): Adds a new element to the set. Unlike lists, the element may not necessarily appear at the end due to the unordered nature of sets.
+
+copy(): Copies the set to the clipboard or a new variable.
+
+remove(value): Deletes a specific element from the set.
+
+discard(value): Similar to remove, it removes a specific item from the set.
+
+clear(): Removes all elements from the set, leaving it empty.
+
+
+
+Examples
+
+s = {"name", 10}
