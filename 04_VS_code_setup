@@ -1,0 +1,12 @@
+#3 Installing VS Code and Setup
+Video Link: https://youtu.be/vquBsQoTM68?si=ao6GpHztG8ENAlF9
+
+Installation: Download VS Code from the official website.
+
+Project Setup: Create a new folder for your project and open it within VS Code.
+
+Creating Files: Create a new file with a .py extension to start writing Python code.
+
+Extensions: It is highly recommended to install the Python extension (by Microsoft) and the Code Runner extension for a better development experience.
+
+Running Code: Once your code is written, you can simply click the Run Code button to view the output instantly.
