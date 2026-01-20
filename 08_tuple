@@ -1,0 +1,36 @@
+Tuple Data Type
+Video Link: https://youtu.be/wj0cXUucCj8?si=oDSTrtn77cdekbqA
+
+Notes
+
+1. Tuple Characteristics
+Immutability: Unlike lists, tuples are immutable, meaning you cannot change, add, or remove elements once they are defined.
+
+Syntax: Tuples are defined using parentheses ().
+
+Single Element Tuple: To create a tuple with only one element, you must include a trailing comma (e.g., (10,)). Without the comma, Python treats it as the data type of the element itself (like an integer) rather than a tuple.
+
+Error on Modification: Attempting to assign a new value to a tuple index (e.g., T1[1] = 20) will result in a TypeError because tuples do not support item assignment.
+
+2. Built-in Tuple Functions
+Many functions used with tuples are the same as those used with lists:
+
+len(): Returns the number of items in the tuple.
+
+count(): Returns the number of times a specified value occurs.
+
+index(): Returns the index of the first occurrence of a specified value.
+
+sorted(): Returns a new sorted list from the tuple elements (note: it returns a list, not a tuple).
+
+3. Additional Functions Demonstrated
+max(): Returns the largest item in the tuple.
+
+min(): Returns the smallest item in the tuple.
+
+
+
+Examples
+
+t1 = ("name", "age", "address")
+t2 = (5, 6, 7, 8)
