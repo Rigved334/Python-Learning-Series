@@ -1,7 +1,7 @@
 Data Types
 Video Link: https://youtu.be/M_u1Obqe5Ns?si=DrErE7wP_Ji49z3H
 
-**Notes**
+Notes
 
 1. Identifiers
 Definition: These are names given to entities like classes, functions, or variables.
@@ -29,7 +29,9 @@ Multi-line Comments: Created by enclosing text within triple double quotes (""")
 
 Shortcut: In many editors, you can use Ctrl + / to toggle comments.
 
-**Examples**
+
+
+Examples
 
 Identifiers:-
 cash = 10  --> valid
