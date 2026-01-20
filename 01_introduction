@@ -1,0 +1,28 @@
+Features of Python
+Video Link: https://youtube.com/shorts/Q0GDIs122jM?si=gY8L_iJWkVKZmXJo
+
+Easy to read & write: Clean syntax, less boilerplate, fast to learn.
+
+Interpreted language: Runs without manual compilation (good for quick testing and scripting).
+
+High-level language: You don’t manage memory manually like C/C++.
+
+Dynamically typed: No need to declare variable types (x = 10 is valid). Flexible, but type mistakes can show up at runtime.
+
+Object-Oriented + Multi-paradigm: Supports OOP, procedural, and functional programming.
+
+Huge standard library: Built-in modules for files, OS work, math, JSON, networking, etc.
+
+Massive ecosystem (third-party libraries): For AI/ML (TensorFlow, PyTorch), web (Django, Flask), data (NumPy, Pandas), automation, etc.
+
+Cross-platform: Same code works on Windows, Linux, macOS (mostly).
+
+Free and open-source: No licensing cost, huge community support.
+
+Automatic memory management (Garbage Collection): Python handles unused memory automatically.
+
+Interactive mode (REPL): You can run Python line-by-line for testing.
+
+Extensible & embeddable: Can call C/C++ for speed, and Python can be embedded into other apps.
+
+Great for rapid development: You build working projects faster compared to many languages.
