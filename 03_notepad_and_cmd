@@ -1,0 +1,10 @@
+#2 Using Notepad and Command Prompt
+Video Link: https://youtu.be/6AQUmluxvWo?si=BRtQLyu5ODwTm7aF
+
+Writing Code: Open Notepad and use the print() function to display text.
+
+Saving Files: Save the file with a .py extension (e.g., filename.py) and set the file type to "All Files".
+
+Navigation: Copy the file's folder path from its properties. In the Command Prompt, use the cd (Change Directory) command followed by the path to navigate to that folder.
+
+Execution: Run the script by typing python filename.py in the Command Prompt.
