@@ -1,0 +1,77 @@
+Operators in Python
+
+Notes
+
+1. Arithmetic Operators
+Used for performing mathematical calculations.
+
+Integer Division (//): Divides and truncates the result to the nearest lowest integer.
+
+Exponentiation (**): Raises the first number to the power of the second.
+
+Modulus (%): Returns the remainder of a division.
+
+
+2. Logical Operators
+Used to combine conditional statements [02:04].
+
+and: Returns True if both conditions are true [02:22].
+
+or: Returns True if at least one condition is true [02:29].
+
+not: Reverses the logical state; used when you don't want a specific condition.
+
+
+3. Equality Operators
+Used to compare if values are exactly the same.
+
+== (Absolutely Equal): Returns True if the values are identical.
+
+!= (Not Equal): Returns True if the values are different.
+
+
+4. Assignment Operators
+Used to assign and update values to variables.
+
+Standard: a = 1
+
+Shorthand: a += 1 (equivalent to a = a + 1)
+
+Other shorthands include -=, *=, and /=
+
+
+5. Ternary Operators
+A one-liner version of an if-else statement to assign values based on a condition.
+
+Syntax: value_if_true if condition else value_if_false.
+
+
+6. Identity Operators
+Used to compare the memory locations (identities) of two objects.
+
+is: Returns True if both variables point to the same object.
+
+is not: Returns True if they do not point to the same object.
+
+
+7. Membership Operators
+Used to test if a sequence (like a string, list, or tuple) is present in an object.
+
+in: Returns True if the value is found.
+
+not in: Returns True if the value is not found.
+
+
+
+Examples
+
+5 // 2 results in 2.
+2 ** 3 results in 8
+17 % 6 results in 5
+
+10 == 10 is True
+10 != 5 is True
+
+x = 50 if a < b else 100. If a < b is true, x becomes 50, otherwise it's 100
+
+'I' in "Hello I am using Python" is True
