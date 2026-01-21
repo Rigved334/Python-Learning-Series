@@ -1,0 +1,50 @@
+Practice Projects
+
+Notes
+
+1. Handling User Input & Display
+The first step in many programs is interacting with the user to get data.
+
+The input() Function: Used to take data from the user. By default, it takes input as a string.
+
+Type Casting: It is recommended to convert the input to the required data type (e.g., str, int, or float) immediately.
+
+Code:
+
+name = str(input("Your Name: "))
+print("Hello", name)
+Output: Asks for a name and then prints a greeting [01:43].
+
+
+2. Project: Calculate Rectangle Area
+This project applies user input and arithmetic operators to a geometry problem.
+
+Goal: Calculate the area of a rectangle using user-provided length and width.
+
+Implementation: The instructor uses float() for type casting to allow decimal values for more precision.
+
+Code:
+
+length = float(input("Enter length: "))
+width = float(input("Enter width: "))
+area = length * width
+print("Area:", area, "unit square")
+Example: Length = 10, Width = 4 → Output: 40.0 unit square.
+
+
+3. Project: Temperature Conversion
+This project demonstrates using mathematical formulas within a script.
+
+Goal: Convert temperature from Fahrenheit (F) to Celsius (C).
+
+Formula: C = (F - 32) * 5 / 9.
+
+Implementation:
+
+f = float(input("Enter temperature in Fahrenheit: "))
+c = (f - 32) * 5 / 9
+print("The temperature in Celsius is", c, "degree Celsius")
+Example: 100°F results in approximately 37.77°C.
+
+Key Takeaway
+The instructor highlights that implementation is more important than just watching theory. Practicing these small projects helps in building the logic required for complex programming.
