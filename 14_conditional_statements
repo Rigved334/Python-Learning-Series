@@ -1,0 +1,51 @@
+Conditional Statements
+Video Link: https://youtu.be/fUfsMX3JU8E?si=7Edt7KfkYk-T1iKO
+
+Notes
+
+1. Core Conditional Statements
+There are three primary keywords used for conditional logic in Python
+
+if: The starting point; it executes a block of code only if the condition is true.
+
+elif (Short for "else if"): Checks another condition if the previous if or elif condition was false.
+
+else: The fallback block that executes if none of the preceding conditions are met.
+
+
+2. Syntax and Indentation
+Indentation is crucial in Python to define blocks of code within a statement.
+
+Colon (:): Every conditional statement must end with a colon.
+
+Indentation Rule: After the colon, the next line must be indented (usually by 4 spaces or 1 tab). If you are using a simple text editor like Notepad, you must add these spaces manually.
+
+General Syntax:
+
+if condition1:
+    statement1
+elif condition2:
+    statement2
+else:
+    final_statement
+
+    
+3. Practical Example: Name Checker
+The instructor demonstrates a program that takes a name as input and responds differently based on the value provided.
+
+name = str(input("Enter your name: "))
+
+if name == "Python":
+    print("Hello Python")
+elif name == "Java":
+    print("Hello Java")
+else:
+    print("Hello", name)
+    
+How it works:
+
+If you enter "Python", the first condition is met, and it prints "Hello Python".
+
+If you enter "Java", the if fails, the elif succeeds, and it prints "Hello Java".
+
+If you enter anything else (e.g., your own name), both if and elif fail, triggering the else block to print "Hello [Your Name]".
