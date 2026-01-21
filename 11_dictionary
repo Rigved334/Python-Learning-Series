@@ -1,0 +1,36 @@
+This video is the 11th part of a Python learning series, focusing on the Dictionary data type, its characteristics, and how to use its built-in functions.
+
+Notes
+
+1. Introduction to Dictionaries
+Definition: Dictionaries store data in key: value pairs.
+
+Unique Keys: Keys cannot be duplicated within a dictionary, but values can be repeated.
+
+Mutability: Dictionaries are mutable, meaning you can change their content after they are created.
+
+2. Creating and Adding Elements
+Empty Dictionary: Created using empty curly brackets: d = {}.
+
+Note: Even though sets also use curly brackets, an empty {} defaults to a dictionary in Python.
+
+Adding Data: You can add elements by assigning a value to a specific key, for example: d['name'] = 'Python'.
+
+Accessing Data: Instead of using numeric indices (0, 1, 2...), you access values using their associated key names, such as d['name'].
+
+3. Built-in Dictionary Functions
+clear(): This function removes all entries from the dictionary, leaving it empty.
+
+del: Unlike clear(), the del keyword deletes the entire dictionary object from memory. Attempting to access it afterward will result in an error.
+
+get('key'): Retrieves the value associated with a specific key.
+
+keys(): Returns a list-like object containing all the keys present in the dictionary.
+
+
+
+Examples
+
+d = {"name": "python", "age": 18}
+
+values(): Returns a list-like object containing all the values stored in the dictionary.
