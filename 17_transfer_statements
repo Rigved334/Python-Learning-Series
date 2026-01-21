@@ -1,0 +1,49 @@
+Transfer Statements in Python
+Video Link: https://youtu.be/9YHYJD2X4BQ?si=-MBbdDtrcvB2_UTt
+
+Notes
+
+1. The break Statement
+The break keyword is used to terminate a loop entirely when a specific condition is met.
+
+Function: It stops the execution of the loop and moves the program flow to the next block of code after the loop.
+
+
+2. The continue Statement
+The continue keyword is used to skip the remaining code inside the current iteration of the loop and move to the next iteration.
+
+Function: Unlike break, it does not stop the loop. It only skips the specific part of the loop for the current value of the index.
+
+
+Key Takeaway
+Use break to exit a loop completely.
+
+Use continue to skip one specific turn of the loop and keep going.
+
+
+
+Examples
+
+for i in range(10):
+    if i == 7:
+        break
+    print(i)
+Explanation: This loop is set to run from 0 to 9. However, when i reaches 7, the break statement triggers, ending the loop.
+
+Output: Numbers from 0 to 6 are printed. The number 7 and those following it are skipped because the loop has been killed
+
+
+for i in range(10):
+    if i == 7:
+        continue
+    print(i)
+Output: Prints all numbers from 0 to 9, except for 7
+
+
+for i in range(10):
+    if i % 2 == 0: # Checks if the number is even
+        continue
+    print(i)
+Explanation: For every even number (where the remainder when divided by 2 is 0), the continue statement skips the print(i) function.
+
+Output: 1, 3, 5, 7, 9 (only odd numbers)
