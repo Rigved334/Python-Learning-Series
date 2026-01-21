@@ -1,0 +1,44 @@
+for loop in python
+Video Link: https://youtu.be/bLimLBdMLEE?si=cKIh6ryeNFbjhcSs
+
+Notes
+
+1. Syntax of the for Loop
+The basic structure of a for loop involves the for keyword, followed by an index variable (commonly named i), the in keyword, and a sequence.
+
+Indentation: Just like conditional statements, the code block inside the loop must be indented after the colon.
+
+General Format:
+
+for i in sequence:
+    # Code block to execute
+
+    
+2. Iterating Over a String
+When you use a for loop on a string, it processes each character one by one.
+
+Execution Flow: The index i starts at the 0th position (the first character) and moves to the next until the end of the string.
+
+
+3. Using the range() Function
+The range() function is used to generate a sequence of numbers.
+
+Inclusive/Exclusive: If you provide one argument (e.g., range(10)), it generates numbers from 0 up to (but not including) 10
+
+Why 10 is excluded: As learned in indexing and slicing, the end index is always excluded in Python.
+
+
+4. Visualization of the Loop
+The instructor explains that the loop essentially checks if the current index exists within the sequence or range. If it does, the code block executes; if not (e.g., when reaching the end index), the loop terminates.
+
+
+Examples
+
+string = "Python"
+for i in string:
+    print(i)
+Output: Each letter of "Python" is printed on a new line
+
+for i in range(10):
+    print(i)
+Output: Numbers from 0 to 9 are printed
