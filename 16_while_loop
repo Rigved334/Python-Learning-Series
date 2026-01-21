@@ -1,0 +1,53 @@
+while loop in python
+Video Link: https://youtu.be/Y-m1jqWDosQ?si=OE3JTGtJbLm0Vyoj
+
+
+Notes
+
+1. Syntax of the while Loop
+The structure consists of the while keyword followed by a condition and a colon. The code to be repeated must be indented.
+
+General Format:
+
+while condition:
+    # Code block to repeat
+
+    
+2. Basic Counting Example
+
+A common use case is executing a loop until a counter reaches a certain value.
+
+
+3. Using Shorthand Assignment
+As mentioned in the operators video, x = x + 1 can be written more concisely.
+
+Shorthand: x += 1.
+
+
+4. Repeating a String (The "Hello" Example)
+You can use the loop to perform a specific action, like printing a greeting, a set number of times.
+
+
+5. The Infinite Loop (Warning)
+An infinite loop occurs if the condition never becomes false.
+
+
+
+Examples
+
+x = 1
+while x < 10:
+    print(x)
+    x = x + 1  # Incrementing x so the loop eventually ends
+Explanation: The loop checks if x < 10. If true, it prints x and then adds 1 to x. This repeats until x becomes 10, at which point the condition becomes false and the loop stops.
+Output: Numbers from 1 to 9
+
+count = 1
+while count < 4:
+    print("Hello")
+    count += 1
+Output: "Hello" is printed 3 times (for count values 1, 2, and 3)
+
+while True:
+    print("Hello")
+Explanation: Since True is always true, this loop will print "Hello" indefinitely until the program is manually stopped. The instructor warns "Don't try this at home" because it can crash or hang your system.
