@@ -1,0 +1,28 @@
+Exception Handling in Python
+Video Link: https://youtu.be/ehIzn-zdStw?si=Kd5vJ6kOY3WCh47R
+
+Notes
+
+1. What is an Exception?
+An exception is an unexpected or unwanted event that interrupts the normal flow of a program.
+
+Exception Handling is the process of managing these events so the program can continue running instead of crashing.
+
+2. Example: ZeroDivisionError
+Attempting to divide a number by zero (e.g., 10 / 0) is a common cause of a ZeroDivisionError.
+
+Without handling, this error will stop the program immediately and show an error message.
+
+3. Core Keywords for Handling Exceptions
+try Block: This is where you place "risky code" that might cause an error.
+
+except Block: This block catches a specific error (like ZeroDivisionError) and executes an alternative piece of code to handle it gracefully.
+
+Multiple except blocks can be used to handle different types of potential errors.
+
+finally Block: This block contains "mandatory code" that will always run, whether an exception was raised or not.
+
+4. Benefits of Exception Handling
+It ensures the program remains stable and doesn't crash unexpectedly.
+
+It allows developers to provide user-friendly error messages instead of technical system logs.
