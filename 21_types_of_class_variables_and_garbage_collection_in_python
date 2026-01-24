@@ -1,0 +1,23 @@
+Types of Class Variables and Garbage Collection in Python
+Video Link: https://youtu.be/4mc-RcGqMx8?si=aCnoms9sxVrC1DGw
+
+Notes
+
+1. Types of Variables in OOP
+Instance Variables: These variables differ from one object to another. For example, if two student objects are created, one can have the name "Python" and the other "Java."
+
+Static (Class) Variables: These are defined inside the class but outside any method. They act like global variables for all methods within the class. You access them using the class name (e.g., ClassName.variable_name) [01:09]. Changes made to a static variable reflect across all instances.
+
+Local Variables: Variables defined inside a specific method to perform a particular task. They are not accessible outside that method. The video demonstrates that if a local variable and an instance variable share the same name, the local one is used if called without self.
+
+2. Garbage Collection
+Python has a built-in "assistant" called the Garbage Collector that runs continuously in the background.
+
+Its primary role is to automatically delete useless or unnecessary objects to free up memory, reducing the chances of program failure.
+
+3. Destructors
+Syntax: Defined using def __del__(self):
+
+Like a constructor, a destructor runs automatically.
+
+Purpose: It is not used to delete the object itself but to perform clean-up activities such as deallocating resources or closing database connections before the object is removed from memory.
