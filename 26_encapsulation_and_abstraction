@@ -1,0 +1,37 @@
+Encapsulation and Absraction in Python
+Video Link: https://youtu.be/JvosxtZc5RU?si=LP9bYTS-b1Ca9p5o
+
+Notes
+
+1. Encapsulation
+Definition: Wrapping data (attributes) and methods into a single unit (class)
+
+Access Modifiers in Python:
+
+Protected (_attribute): Suggested for use only within the class and its subclasses.
+
+Private (__attribute): Strictly restricted; cannot be accessed directly outside the class.
+
+Practical Example (Bank Account):
+
+By naming a balance attribute __balance, it becomes private.
+
+Attempting to access a.__balance from outside the class results in an AttributeError, ensuring the data is protected.
+
+Private attributes can still be accessed and displayed via methods defined inside the class (like a display() method)
+
+2. Abstraction
+Definition: Hiding the internal implementation details and showing only the necessary functionality to the user.
+
+Real-World Analogy: When driving a car, a user knows how to use the accelerator, brakes, and steering wheel (interface) but doesn't necessarily need to understand the internal mechanics of the engine (implementation)
+
+Python Implementation:
+
+The user interacts with high-level methods like drive() or stop()
+
+The complex logic behind these actions is hidden within the class structure, allowing the user to focus on "what" the program does rather than "how" it does it.
+
+3. Conclusion of the Python Series
+This video marks the completion of the core Python series, covering topics from basics to advanced OOP.
+
+Future videos will focus on specific Python modules based on viewer feedback.
