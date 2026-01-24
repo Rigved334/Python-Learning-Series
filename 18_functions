@@ -1,0 +1,29 @@
+Functions in Python
+
+Notes
+
+1. What is a Function?
+A function is a block of code organized into a single unit that can be called repeatedly.
+
+Its main goal is to promote reusability in programming.
+
+2. Types of Functions
+Predefined (Built-in) Functions: These are built into Python, such as input(), type(), and range(), as well as data type-specific functions for lists, sets, and dictionaries.
+
+User-defined Functions: These are functions created by the programmer to perform specific tasks.
+
+3. Defining and Calling a Function
+Syntax: Use the def keyword (short for define), followed by the function name, parentheses (), and a colon :
+
+Parameters: These are optional values passed inside the parentheses.
+
+Return Value: Functions can optionally return a value after execution.
+
+Execution: A function will not run until it is explicitly "called" by its name followed by parentheses.
+
+4. Practical Examples
+Basic Function: A simple greet() function that prints "Hello" when called.
+
+Demonstrating Reusability: Calling the greet() function three times results in "Hello" being printed thrice, showing how code can be reused efficiently.
+
+Function with Parameters: By adding a name parameter to the greet(name) function, the output can be customized (e.g., greet("Python") prints "Hello Python").
