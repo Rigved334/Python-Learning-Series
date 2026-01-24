@@ -1,0 +1,29 @@
+Object Oriented Programming in Python
+Video Link: https://youtu.be/o8pCvfxnyUo?si=ZZhgs26QXOLtVgRC
+
+1. Core Concepts
+Class: A blueprint for an object that represents its properties (attributes/variables) and actions (behaviors/methods)
+
+Syntax: class ClassName: followed by variables and methods.
+
+Convention: It is recommended to use PascalCase (capitalizing the first letter) for class names for better readability.
+
+Object: Also known as an "instance of a class," it is the physical existence of a class. You store an object in a reference variable to access class attributes.
+
+Methods: These are essentially functions defined inside a class.
+
+2. Special Parameters & Methods
+Constructor (__init__): A special method that automatically runs when an object is created. Its purpose is to declare and initialize variables to prevent "garbage values"
+
+self Parameter: A default argument that always points to the current object being created or used. It is used to access instance variables and methods within the class.
+
+3. Implementation Example
+The video demonstrates creating a Student class:
+
+Initialization: The __init__ method takes self, name, and roll_number as arguments.
+
+Attributes: Assigned using self.name = name and self.roll_number = roll_number.
+
+Display Method: A display_info method prints the student's details using self to reference the specific instance's data.
+
+Creating Objects: You can create multiple unique objects (e.g., s1, s2) from the same class, each holding different data.
