@@ -1,0 +1,29 @@
+Inheritance and its Types in Python
+Video Link: https://youtu.be/qKvsMtnFjBA?si=O-q-lgd4pPf3eJBk
+
+Notes
+
+1. Key Terms
+Parent Class (Superclass): The main class whose properties and methods are inherited.
+
+Child Class (Subclass/Derived Class): The class that inherits from the parent class by passing the parent's name in parentheses.
+
+2. Practical Example: Car & Toyota
+A Car class is created with attributes like color and methods like start() and stop()
+
+A Toyota class is then created, inheriting from Car. This allows the Toyota object to access Car's methods (start, stop) and variables (color) directly.
+
+Methods are accessed using object.method_name(), while variables are accessed using print(object.variable_name)
+
+3. Types of Inheritance
+Single Inheritance: A child class inherits from only one parent class.
+
+Multi-level Inheritance: A chain where Class C inherits from Class B, and Class B inherits from Class A
+
+Multiple Inheritance: A single child class inherits from two or more different parent classes simultaneously.
+
+4. The super() Function
+Purpose: Used to access the constructor and variables of the parent class from within the child class.
+
+Example: In a Programmer class inheriting from ProgrammingLanguage, super().__init__(name) is used to pass the name variable to the parent's constructor while the child handles its own additional variables (like age)
+This ensures that the parent class is correctly initialized even when creating an object of the child class.
