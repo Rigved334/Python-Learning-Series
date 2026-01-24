@@ -1,0 +1,52 @@
+File Handling in Python
+Video Link: https://youtu.be/R4p8Wemtrro?si=JD6qitu9MxgVh2UB
+
+Notes
+
+1. Introduction to Files
+Files serve as permanent data storage.
+
+Two main types of files:
+
+Text Files: Store text data.
+
+Binary Files: Store non-text data like photos and videos.
+
+2. Opening and Closing Files
+Syntax: f = open("filename", "mode")
+
+Always close a file after operations are complete using f.close() to free up resources.
+
+3. File Modes for Text Files
+'r' (Read): Opens a file for reading (default)
+
+'w' (Write): Opens a file for writing; creates a new file or overwrites an existing one.
+
+'a' (Append): Opens a file to add data to the end without overwriting existing content.
+
+'r+': Reading and writing without overwriting.
+
+'w+': Reading and writing with overwriting.
+
+'a+': Appending and reading without overwriting original data.
+
+Binary Modes: Similar to text modes but with a 'b' suffix (e.g., 'rb', 'wb')
+
+4. Writing to a File
+Use the write() function to add content: f.write("Your text here")
+
+The video demonstrates creating subject.txt and writing "Python Programming" into it.
+
+5. Reading from a File
+read(): Reads the entire file content or n characters.
+
+readline(): Reads a single line from the file.
+
+readlines(): Reads all lines and returns them as a list.
+
+6. The with Statement
+Syntax: with open("filename", "mode") as f:
+
+Key Advantage: It automatically closes the file once the block of code is finished, even if an error occurs.
+
+This is the recommended way to handle files in Python to avoid forgetting f.close()
