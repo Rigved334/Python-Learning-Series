@@ -1,0 +1,32 @@
+Polymorphism in Python
+Video Link: https://youtu.be/z8Lcq34sz7U?si=ljnwnZKbkxHXOCzR
+
+Notes
+
+1. What is Polymorphism?
+The term is derived from "Poly" (many) and "Morphism" (forms)
+
+It allows a single method name to represent multiple implementations.
+
+2. Method Overloading
+Definition: Occurs when two or more methods have the same name but different parameters or arguments.
+
+In Python: Since Python doesn't support traditional method overloading (where multiple methods with the same name coexist), it is achieved using:
+
+Variable-Length Arguments (*args): Allowing a function to accept a flexible number of inputs.
+
+Default Arguments: Providing default values to parameters.
+
+Example: An add class with a sum method that can handle any number of arguments and return their total sum.
+
+3. Method Overriding
+Definition: Occurs during Inheritance when a child class provides a specific implementation for a method that is already defined in its parent class.
+
+Requirement: The method name and parameters must be exactly the same in both the parent and child classes.
+
+Example: A parent class Shape has a method number_of_sides() that prints a general message. A child class Square overrides this method to specifically print that a square has four sides. When the method is called on a Square object, the child’s version is executed instead of the parent’s.
+
+4. Key Difference
+Overloading happens within the same class (or via flexible arguments) to handle different inputs.
+
+Overriding happens across different classes (Parent vs. Child) to provide specific behavior.
