@@ -1,0 +1,20 @@
+Types of Arguments and Types of Variables in Python
+
+Notes
+
+1. Types of Arguments (Parameters)
+Positional Arguments: The values are assigned to parameters based on their order. For example, in add(a, b), calling add(10, 20) assigns 10 to a and 20 to b
+
+Keyword Arguments: Values are assigned to parameters using their names, allowing the order to be changed without affecting the outcome. Example: greet(name="Python", message="Good Morning")
+
+Default Arguments: You can provide a default value to a parameter during function definition. If no value is passed when the function is called, the default is used. Example: def wish(name="Guest")
+
+Variable-Length Arguments (*args): Used when you don't know how many arguments will be passed. It is defined using an asterisk (e.g., *n) and stores arguments in a tuple, which can be iterated through (e.g., for summing multiple numbers)
+
+2. Types of Variables
+Global Variables: Defined outside of any function. They can be accessed by any function within the same script.
+
+Local Variables: Defined inside a function. They are only accessible within that specific function and cannot be used by other functions or the main script, leading to an error if accessed outside their scope.
+
+3. Key Takeaway
+Understanding argument types allows for more flexible function calls, while knowing variable scope (Global vs. Local) is crucial for managing data and avoiding "not defined" errors.
