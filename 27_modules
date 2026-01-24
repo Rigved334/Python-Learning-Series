@@ -1,0 +1,28 @@
+Modules in Python
+Video Link: https://youtu.be/7wiKysvBgUk?si=SV4xouLDyYYa7I0Y
+
+Notes
+
+1. What is a Module?
+A module is a Python file (.py) that contains reusable code, including methods, variables, and classes.
+
+They help organize code by allowing developers to split large programs into multiple files.
+
+2. Types of Modules
+Built-in Modules: Pre-installed with the Python software (e.g., math, os, sys, datetime)
+
+User-defined Modules: Created by the user to meet specific requirements.
+
+Third-party Modules: Stored on the internet and must be downloaded via a terminal using the command pip install module_name (e.g., numpy, pandas, scikit-learn)
+
+3. Ways to Import Modules
+import module_name: Imports the whole module. Access components using module_name.method() (e.g., math.sqrt())
+
+from module_name import *: Imports everything from the module. Components can be accessed directly without the module name prefix.
+
+from module_name import specific_method: Imports only a specific function (e.g., from math import pow). You can then use the function directly.
+
+import module_name as alias: Assigns a short name (alias) to a module for easier reference (e.g., import math as m), which is useful for modules with long names.
+
+4. Practical Example
+The video demonstrates using the math module's pow function to calculate powers, showing how different import styles affect how you call the function in your code.
